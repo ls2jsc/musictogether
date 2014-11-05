@@ -1,0 +1,72 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+<META HTTP-EQUIV="refresh" CONTENT="86400"> 	<!--refresh every day-->
+<META NAME="keywords" CONTENT="music,together,Taiwan,免費音樂,音樂平台,周遭,好友圈">	<!--keywords-->
+<META http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>	<!--encoding-->
+<meta http-equiv="Content-Language" content="zh-tw" />
+<META NAME="generator" CONTENT="Notepad">	<!--whatyou see is whatyou get(made from what software)-->
+<META NAME="description" CONTENT="我們是最新、最酷、最炫的免費音樂平台，提供免費的音樂，是一個歌曲地圖，將虛擬的音樂王國建立在真實的地圖上。我們也是一個音樂搜尋器，帶你發現另一個不同的自己；有了我們你可以知道周遭的人在聽些甚麼!!!跳脫好友圈圈的限制，不用再為了聽音樂加一堆好友。或者，好友圈的侷限，導致你怎麼聽都是那些歌?也可以透過音樂，認識生活在你身邊的人">
+<META NAME="author" CONTENT="Hank">		<!--Author-->
+<META NAME="copyright" CONTENT="本網頁著作權屬WP所有">	
+<META NAME="Creation-Date" CONTENT="13-march-2009 20:50:01">	<!--finish time-->
+<META NAME="expires" CONTENT="31 December 2019">	<!--when to delete from db(GMT format)-->
+<META NAME="set-cookie" CONTENT="31 December 2019">	<!--when to delete cookie-->
+<META NAME="distribution" CONTENT="Taiwan">
+<META HTTP-EQUIV="windows-Target" CONTENT="_top">	<!--not framed-->
+<META NAME="robots" CONTENT="all">	
+<title>MusicTogether</title>
+<style type="text/css">
+	body{
+		background: url(background.jpg);
+		background-attachment: fixed; 
+	}
+	div{
+		font-size: 20;
+		color: #664444;
+		text-align: center;
+	}
+	p{
+		margin-top: 3%;
+		margin-left:20%;
+		margin-right: 40%;
+		background: rgba(80%,70%,60%,0.3);
+	}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("p").hide();
+ 	$("p").show("slow");
+});
+</script>
+</head>
+
+<body>
+	<img src="title_logo.png" alt="Title Icon" align="middle" style="margin-left:35%;">
+	</script>
+	<marquee behavior=alternate width=65% style="margin-left:20%; background: rgba(70%,50%,50%,0.2);">
+		<font size="5">發現身邊的好音樂，在空閒等待之餘，嘗試不一樣的自己
+		</font>
+	</marquee>
+	<h0 style="margin-left:25%; font-size: 20;">HOME</h0>
+	<h0 style="margin-left:10%; font-size: 20;">ABOUT</h0>
+	<h0 style="margin-left:10%; font-size: 20;">CONTACT</h0>
+	<p>我們是一個歌曲地圖 將虛擬的音樂王國建立在真實的地圖上<br>
+		是一個音樂蒐尋器 帶你發現另一個不同的自己<br><br>
+		有了我們你可以知道 周遭的人在聽些甚麼!!!<br><br>
+		跳脫好友圈圈的限制 不用再為了聽音樂加一堆好友<br>
+		或者 好友圈的侷限 導致你怎麼廳都是那些歌<br>
+		也可以透過音樂 認識生活在你身邊的人<br></p>
+	<button type="button"  style="margin-left:35%;" onclick="searchFunction()">
+	What song is nearby you may want</button><br>
+	<h0 id="search_song" style="margin-left:35%;"></h0>
+	<script>
+	function searchFunction() {
+   		document.getElementById("search_song").innerHTML  = "There are no songs";
+	}
+	</script>
+
+</body>
+
+</html>
